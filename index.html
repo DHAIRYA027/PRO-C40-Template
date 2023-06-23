@@ -5,11 +5,24 @@
 
   <script src="js/form.js"></script>
 <!--Link game.js and player.js-->
-   
+   <script src="js/game.js"></script>
+  <script src="js/player.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
 
 <!--Add database config here below-->
-  
+  <script>
+  const firebaseConfig = {
+  apiKey: "AIzaSyCSYeId-dcgIEUwWApEDoHfU27HEK-TWP4",
+  authDomain: "race-bbf5d.firebaseapp.com",
+  databaseURL: "https://race-bbf5d-default-rtdb.firebaseio.com",
+  projectId: "race-bbf5d",
+  storageBucket: "race-bbf5d.appspot.com",
+  messagingSenderId: "654142561783",
+  appId: "1:654142561783:web:ccd1376a611229617262f2"
+};
+    firebase.initializeApp(firebaseConfig)
+  </script>
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8">
 
